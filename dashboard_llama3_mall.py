@@ -7,6 +7,7 @@ from dash import dcc, html, Input, Output
 import requests
 import json
 import dash_bootstrap_components as dbc
+import os
 
 # Cargar el dataset de clientes del mall
 df = pd.read_csv("https://raw.githubusercontent.com/EdwinAAH/Inteligencia-de-negocios/refs/heads/main/Mall_Customers.csv")
